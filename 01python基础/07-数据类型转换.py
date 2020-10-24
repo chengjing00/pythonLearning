@@ -44,7 +44,7 @@ t1 = (10, 20, 30)
 print(f"list:{list(t1)}")
 print(f"list:{type(list(t1))}")
 
-# eval() -- 计算在字符串中有效对python表达式，并返回一个对象
+# eval() -- 计算在字符串中有效对python表达式（转换为数据原来的类型），并返回一个对象
 str2 = '1'
 print(f"eval:{eval(str2)}")
 print(f"eval:{type(eval(str2))}")
