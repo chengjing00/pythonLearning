@@ -12,6 +12,7 @@
 
 # 结束符
 print("输出的内容", end='\n')
+print("输出的内容", end='12321\n')
 print("hello")
 print("world")
 print("hello python")
