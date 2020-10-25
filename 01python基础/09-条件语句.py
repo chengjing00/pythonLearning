@@ -16,8 +16,8 @@ else:
 age = 80
 if age < 18:
     print("age < 18")
-elif (age >= 18) and (age <= 60):
+# elif (age >= 18) and (age <= 60):
+elif 18 <= age <= 60:
     print("18 <= age <= 60")
 elif age > 60:
     print("age > 60")
-
