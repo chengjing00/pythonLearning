@@ -39,6 +39,3 @@ print(type(f))
 
 
 
-
-
-
