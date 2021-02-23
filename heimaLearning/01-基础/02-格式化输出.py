@@ -21,7 +21,13 @@ stu_id = 1
 
 print("my age is %d" % age)
 print("my name is %s" % name)
-print("my weight is %f" % weight)
+print("my weight is %.2f" % weight)
 print("my stu_id is %d" % stu_id)
 print("my name is %s, age is %d" % (name, age))
-print("my name is %s, age is %d ,weight is %f , stu_id is %d" % (name, age, weight, stu_id))
+print("my name is %s, age is %d ,weight is %f , stu_id is %06d" % (name, age, weight, stu_id))
+
+# 输出拓展
+print("my name is %s ,age is %s , weight is %s" % (name, age, weight))
+
+# f 格式化字符串
+print(f"my name is {name} age is {age}")
