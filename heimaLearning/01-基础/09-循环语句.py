@@ -27,3 +27,13 @@ while j < 3:
     print("outer")
     j += 1
 print("overÎ")
+
+# 打印矩形
+i = 0
+while i < 5:
+    j = 0
+    while j < 5:
+        print("*", end="")
+        j += 1
+    i += 1
+    print("")
