@@ -16,3 +16,14 @@ while index <= 100:
     index += 1
 
 print(f"result:{result}")
+
+# 嵌套while循环
+j = 0
+while j < 3:
+    i = 0
+    while i < 3:
+        print("innner")
+        i += 1
+    print("outer")
+    j += 1
+print("overÎ")
